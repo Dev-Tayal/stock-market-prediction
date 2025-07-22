@@ -28,5 +28,16 @@ This project predicts stock prices using Long Short-Term Memory (LSTM) neural ne
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/Dev-Tayal/stock-market-prediction
+   cd stock-prediction
+
+2. Install required Packages:
+   pip install -r requirements.txt
+
+3. Navigate to the notebook folder and open the notebook or script:
+
+   For Jupyter Notebook or JupyterLab:
+      cd notebook
+      jupyter notebook 01_lstm_stock_prediction.ipynb
+
+   Or open the .py script in your favorite editor.
