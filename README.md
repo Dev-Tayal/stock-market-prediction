@@ -1,2 +1,32 @@
 # stock-market-prediction
 Stock market price trend prediction using LSTM and economic indicator
+
+# Stock Market Prediction Using LSTM
+
+This project predicts stock prices using Long Short-Term Memory (LSTM) neural networks trained on historical stock data from Yahoo Finance.
+
+## Project Overview
+
+- Download historical stock data using `yfinance`.
+- Preprocess and normalize the stock price data.
+- Create time series sequences for LSTM input.
+- Build and train an LSTM model to predict stock closing prices.
+- Evaluate the model using Root Mean Squared Error (RMSE).
+- Visualize actual vs predicted stock prices.
+- (Future) Option to integrate news sentiment data for enhanced predictions.
+
+## Technologies Used
+
+- Python 3.x
+- TensorFlow / Keras
+- yfinance
+- scikit-learn
+- pandas, numpy, matplotlib
+
+## How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
